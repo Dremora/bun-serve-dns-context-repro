@@ -7,14 +7,6 @@ This repository reproduces a Bun bug where the same `dns.lookup()` call returns 
 - Bun revision: `1.3.13+bf2e2cecf`
 - Platform: `Darwin 25.4.0 arm64 arm`
 
-## Install Bun With Mise
-
-```bash
-mise trust
-mise install
-mise exec bun -- bun dns-lookup-context-repro.ts
-```
-
 ## Core repro
 
 ```bash
